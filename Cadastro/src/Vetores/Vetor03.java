@@ -1,3 +1,5 @@
+package Vetores;
+
 import java.util.Scanner;
 
 public class Vetor03 {
