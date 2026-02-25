@@ -27,7 +27,13 @@ public class Pratica {
         }
         for (int i = 0; i < quantidade; i++) {
             System.out.println(carros[i]);
+
         }
+        double somaPrecos = 0;
+        for (int j = 0; j < quantidade; j++) {
+            somaPrecos += carros[j].getPreco();
+        }
+        System.out.println("Preço total de todos os carros: " + somaPrecos);
         scanner.close();
     }
 }
